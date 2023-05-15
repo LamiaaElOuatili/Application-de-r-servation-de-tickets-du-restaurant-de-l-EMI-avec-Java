@@ -667,7 +667,7 @@ public class reservations extends javax.swing.JFrame {
         
         try {
             Class.forName(db_driver);
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","121139");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","000000");
             
             String sql2 = "SELECT Mle From loginout WHERE id = (SELECT MAX(id) FROM loginout)";
             ps2 = con.prepareStatement(sql2);
