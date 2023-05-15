@@ -7,9 +7,13 @@ The database consists of several tables including:
 (The names of some tables are in French)
 
 **informations:** stores information about students including the name and the balance.
+
 **loginout:** stores the login history of users.
+
 **prixticket:** stores the price of tickets.
+
 **reservations:** stores information about reservations including the reservation date and the type of the ticket.
+
 **tickets:** stores information about tickets including the ticket number and the reservation details.
 
 # Setup
