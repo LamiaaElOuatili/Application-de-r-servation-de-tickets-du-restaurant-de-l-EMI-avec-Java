@@ -19,7 +19,7 @@ public class DeleteFrame extends javax.swing.JFrame {
     
     String url = "jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL";
     String username = "root";
-    String password = "190219";
+    String password = "000000";
     
 
 private void RechercheD() {

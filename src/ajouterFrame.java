@@ -244,7 +244,7 @@ public class ajouterFrame extends javax.swing.JFrame {
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
-            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","190219");
+            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","000000");
             String sql =("insert into informations (Mle,Nom,Prenom,Solde,Mdp)value(?,?,?,?,?)");
             PreparedStatement pst =con.prepareStatement(sql);
             

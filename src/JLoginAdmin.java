@@ -119,7 +119,7 @@ public class JLoginAdmin extends javax.swing.JFrame {
         try{
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","190219");
+            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","000000");
             String sql ="select * from admininfo where identifiant=? and psswrd=? ";// need fixing
             PreparedStatement pst =con.prepareStatement(sql);
             pst.setString(1,usernameAdmin.getText());

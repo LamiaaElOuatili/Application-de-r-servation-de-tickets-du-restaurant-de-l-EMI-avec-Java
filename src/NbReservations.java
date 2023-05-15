@@ -204,7 +204,7 @@ public class NbReservations extends javax.swing.JFrame {
         
         try {
             Class.forName(db_driver);
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","121139");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/resum5?zeroDateTimeBehavior=CONVERT_TO_NULL","root","000000");
             
             String sql = "SELECT COUNT(CodeR) From reservations, ticket WHERE reservations.TicketCode = ticket.TicketCode AND DateR = ? AND Repas = ?";
             ps = con.prepareStatement(sql);
